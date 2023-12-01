@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/naushads/Documents/jupyter_notebooks/langchain-demo/venv
+exec_prefix=/Users/naushads/Documents/jupyter_notebooks/langchain-demo/venv
+libdir=/Users/naushads/Documents/jupyter_notebooks/langchain-demo/venv/lib
+includedir=/Users/naushads/Documents/jupyter_notebooks/langchain-demo/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
